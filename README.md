@@ -10,7 +10,7 @@ This model performs voice recognition and speaker separation by streaming the co
 ## model used
 #### 1. Wespeaker
 
-![architecture](https://github.com/minuex/S-Talk/blob/main/Wespeaker%20구조도.png)
+![architecture](https://github.com/minuex/S-Talk/blob/main/전체구조도.jpg)
 
 #### 2. Whisper
 
