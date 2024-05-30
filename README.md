@@ -1,6 +1,8 @@
 # 기초프로젝트
 
+
 This model performs voice recognition and speaker separation by streaming the conversational voice in real time during an encounter with the other person, converts the voice into text, and inputs the conversation content for each speaker into llama3. This provides a function that recommends the next topic when the atmosphere becomes awkward based on analysis of conversation content.
+
 ---
 ## Installation
 
@@ -8,6 +10,7 @@ This model performs voice recognition and speaker separation by streaming the co
 ## model used
 #### 1. Wespeaker
 
+![architecture](https://github.com/minuex/S-Talk/blob/main/Wespeaker%20구조도.png)
 
 #### 2. Whisper
 
