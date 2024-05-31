@@ -24,6 +24,7 @@ A standard procedure contains data preparation on the disk, online feature prepa
 6. Production Ready: Easily exportable to formats like torch JIT or ONNX for deployment in production environments.
 
 [WESPEAKER: A RESEARCH AND PRODUCTION ORIENTED SPEAKER EMBEDDING LEARNING TOOLKIT](https://arxiv.org/pdf/2210.17016)
+
 ![structure](https://github.com/minuex/S-Talk/blob/main/wespeaker%20구조도.jpg)
 
 ### 2. Whisper
