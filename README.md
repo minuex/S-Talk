@@ -13,6 +13,9 @@ This model performs voice recognition and speaker separation by streaming the co
 
 WeSpeaker is a research and production-oriented toolkit designed for learning speaker embeddings, which are fixed-dimensional vector representations used in tasks such as speaker recognition and diarization. This toolkit implements state-of-the-art speaker embedding models, loss functions, and scoring backends to deliver competitive results.
 
+#### Ovarall Structure
+A standard procedure contains data preparation on the disk, online feature preparation, and model training. After the converged model is obtained, it can be easily exported to a run-time format and ready for further deployment. The extracted speaker embeddings can then be applied to downstream tasks, such as speaker verification and diarization.
+
 1. Competitive Results: Achieves highly competitive performance on datasets like VoxCeleb, CNCeleb, and VoxConverse, replicating tricks from winning systems in speaker verification challenges to enhance system performance.
 2. Lightweight: Built on PyTorch and its ecosystem without dependencies on external tools like Kaldi.
 3. Unified IO (UIO): Introduces the unified IO system from Wenet, providing a seamless interface to support hundreds of millions of hours of data.
