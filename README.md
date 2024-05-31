@@ -41,7 +41,6 @@ LLAMA3 models suffer from notable performance degradation when quantized to ultr
 
 [How Good Are Low-bit Quantized LLAMA3 Models? An Empirical Study](https://arxiv.org/pdf/2404.14047)
 
-....(+내용 추가 예정)
 
 ---
 ## Installation
